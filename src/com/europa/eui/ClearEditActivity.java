@@ -13,22 +13,12 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
  * @author europa
  *
  */
-public class MainActivity extends Activity {
+public class ClearEditActivity extends Activity {
 
-	CheckBox demoChk;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
-		demoChk=(CheckBox) findViewById(R.id.demoChk);
-		demoChk.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-			@Override
-			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-				if(isChecked){
-					startActivity(new Intent(MainActivity.this,ClearEditActivity.class));
-				}
-			}
-		});
+		setContentView(R.layout.clear_edit);
 	}
 
 	@Override
