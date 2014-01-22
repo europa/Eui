@@ -87,7 +87,8 @@ public class InputText extends EditText {
 		}
 		if ((this.dRight != null) && (paramMotionEvent.getAction() == 1)) {
 			this.rBounds = this.dRight.getBounds();
-			int i = (int) paramMotionEvent.getX();
+			//must use getRawX(),else the inputtext can't work when there is view on its left.
+			int i = (int) paramMotionEvent.getRawX();
 			if (i > getRight() - 2 * this.rBounds.width()) {
 				setText("");
 				paramMotionEvent.setAction(MotionEvent.ACTION_CANCEL);
