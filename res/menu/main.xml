@@ -10,8 +10,8 @@
         android:showAsAction="always"
         android:title="two"/>
     <item 
-        android:id="@+id/three"
-        android:icon="@drawable/ic_launcher"
+        android:id="@+id/progressItem"
+        android:icon="@drawable/progress"
         android:showAsAction="always"
         android:title="three"/>
 </menu>

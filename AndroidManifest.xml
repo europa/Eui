@@ -14,16 +14,19 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Holo.Light" >
         <activity
-            android:name="com.europa.eui.MainActivity"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.Dialog" >
+            android:name="com.europa.eui.activity.MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.europa.eui.ClearEditActivity"></activity>
+        <activity android:name="com.europa.eui.activity.ClearEditActivity"></activity>
+        <activity android:name="com.europa.eui.activity.CheckActivity"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name="com.europa.eui.activity.AutoActivity"
+            android:launchMode="singleInstance"></activity>
     </application>
 
 </manifest>

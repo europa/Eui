@@ -1,0 +1,30 @@
+[33mcommit c8e47dc4adf191e332f58f108f55e7353424fc15[m
+Author: europa <europa2046@gmail.com>
+Date:   Wed Jan 22 09:47:43 2014 +0800
+
+    v3 fix the hidden bug of InputText
+
+[33mcommit f8eeea23c3a78b67bffaa5c87c0d41a00f5aa9c1[m
+Merge: d67bcef ff52bdb
+Author: europa <europa2046@gmail.com>
+Date:   Sat Jan 18 21:38:22 2014 +0800
+
+    Merge branch 'master' of https://github.com/europa/Eui
+
+[33mcommit d67bcef445d500749e1ee44d3abc31e543c7b2ec[m
+Author: europa <europa2046@gmail.com>
+Date:   Sat Jan 18 21:37:20 2014 +0800
+
+    v2 the EditText with clear feather
+
+[33mcommit ff52bdb408eebf75731757de2d831609cbf57751[m
+Author: europa <europa2046@163.com>
+Date:   Tue Nov 12 16:51:45 2013 +0800
+
+    Create README.md
+
+[33mcommit 6392e79dd4d016fb7874e79bba52cd424696e11b[m
+Author: europa <europa2046@gmail.com>
+Date:   Tue Nov 12 16:41:43 2013 +0800
+
+    v1 A beautiful style of checkbox
